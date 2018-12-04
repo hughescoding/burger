@@ -22,7 +22,7 @@
 							{{#unless this.devoured}}
 							<li class="list-group-item">
 								<p class="burger-type">{{this.name}}</p>
-								<form class="pull-right" action="/{{this.id}}?_method=PUT" method="POST">
+								<form class="float-right" action="/{{this.id}}?_method=PUT" method="POST">
 									<input type="hidden" name="devoured" value="true">
 									<button class="btn btn-default btn-danger" type="submit">Eat</button>
 								</form>
@@ -54,7 +54,7 @@
 							{{#if this.devoured}}
 							<li class="list-group-item">
 								<p class="burger-type">{{this.name}}</p>
-								<form class="pull-right" action="/{{this.id}}?_method=DELETE" method="POST">
+								<form class="float-right" action="/{{this.id}}?_method=DELETE" method="POST">
 									<button class="btn btn-default btn-danger" type="submit">Empty</button>
 								</form>
 							</li>
