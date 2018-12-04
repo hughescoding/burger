@@ -1,0 +1,27 @@
+.hero {
+	background-color: #1e8ad2;
+}
+
+.burger-type {
+	display: inline-block;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+.bgImage {
+	/* The image used */
+	background-image: url("/public/assets/img/background.jpeg");
+
+	/* Full height */
+	height: 100%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
